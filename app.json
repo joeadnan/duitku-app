@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Duitku",
+    "slug": "duitku-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.duitku.app"
+    },
+    "android": {
+      "package": "com.duitku.app"
+    },
+    "plugins": [
+      "./plugins/withWatermelonDB",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Aplikasi Duitku menggunakan Face ID untuk membuka aplikasi dengan aman."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Aplikasi Duitku membutuhkan akses foto untuk memuat struk transaksi.",
+          "cameraPermission": "Aplikasi Duitku membutuhkan akses kamera untuk mengambil foto struk transaksi.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c3b02b31-03c2-47c7-a773-0f6587cb1bff"
+      }
+    }
+  }
+}

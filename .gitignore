@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native projects (dibuat ulang oleh `npx expo prebuild` / EAS Build)
+/android
+/ios
+
+# Lokal
+.env*.local
+*.log
+.DS_Store

@@ -1,0 +1,37 @@
+{
+  "name": "duitku-expo-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "engines": {
+    "node": "^22.13.0 || ^24.3.0 || >=26.0.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "typecheck": "tsc --noEmit",
+    "doctor": "expo-doctor"
+  },
+  "dependencies": {
+    "@nozbe/simdjson": "3.9.4",
+    "@nozbe/watermelondb": "^0.28.0",
+    "@react-native-community/netinfo": "12.0.1",
+    "expo": "~58.0.23",
+    "expo-image-picker": "~58.0.10",
+    "expo-local-authentication": "~58.0.2",
+    "expo-splash-screen": "~58.0.14",
+    "expo-status-bar": "~58.0.4",
+    "expo-system-ui": "~58.0.7",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/plugin-proposal-decorators": "^7.24.1",
+    "@types/react": "~19.3.0",
+    "babel-preset-expo": "~58.0.24",
+    "typescript": "~6.0.3"
+  }
+}
